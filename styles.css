@@ -1,0 +1,200 @@
+/* Reset and basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('image/background.jpg');
+  background-size: cover;
+  color: rgb(29, 14, 2);
+  margin: 0;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content and main section */
+.content {
+  padding: 50px 20px;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Product Section with Transparent Background */
+.product {
+  background-color: rgba(0, 0, 0, 0.5); /* Reduced opacity for clearer background */
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  color: #fff; /* Ensures text is readable on the semi-transparent background */
+}
+
+/* Circular images */
+img {
+  width: 100px;                /* Set a default size for all images */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;           /* Makes all images circular */
+  display: block;               /* Center alignment */
+  margin: 0 auto;               /* Center alignment */
+}
+
+/* Button styling */
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"],
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  color: #333;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+
+.hero-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cta-button {
+  background-color: #ffd700;
+  color: #000;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ffc107;
+}
+
+/* Product Section */
+.product-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.product-card h2 {
+  font-size: 26px;
+}
+
+.order-button {
+  background-color: #ffd700;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.order-button:hover {
+  background-color: #ffc107;
+}
+
+/* Order Confirmation */
+.order-confirmation {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+/* Status Section */
+.status-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.status-button {
+  background-color: #ffd700;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.status-button:hover {
+  background-color: #ffc107;
+}
+/* Status Result */
+.status-result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #17a2b8;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Management section for CEO and managers */
+.management p {
+  display: inline-block;
+  margin: 5px;
+}

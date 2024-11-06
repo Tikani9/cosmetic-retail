@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Store - Order Status</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Cosmetic Store</h1>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="products.html">Products</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="status-section">
+        <h2>Track Your Order</h2>
+        <form id="statusForm">
+            <label for="orderId">Enter Order ID</label>
+            <input type="text" id="orderId" required placeholder="Order ID">
+            <button type="button" class="status-button" onclick="checkOrderStatus()">Check Status</button>
+        </form>
+
+        <div id="statusResult" class="status-result"></div>
+    </section>
+
+    <footer>
+        <p>whatsapp us at +254704121188</p>
+        <p>&copy; 2024 Cosmetic Store. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:tikanitikoishi@gmail.com">tikanitikoishi@gmail.com</a></p>
+    </footer>
+</body>
+</html>
